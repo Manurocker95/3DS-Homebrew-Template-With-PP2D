@@ -40,16 +40,15 @@ void GameScreen::Start()
 }
 
 void GameScreen::Draw()
-{
-	
+{	
 	//PP2D HAS NO 3D Effect yet
-	pp2d_begin_draw(GFX_TOP);
+	pp2d_begin_draw(GFX_TOP, GFX_LEFT);
 	pp2d_draw_texture_part(TEXTURE_SPRITESHEET_ID2, 0, 0, TOP_WIDTH, 0, TOP_WIDTH, HEIGHT);
 	pp2d_draw_texture_part(TEXTURE_SPRITESHEET_ID2, m_playerX, m_playerY, 0, HEIGHT*2, 90, 96);
 	pp2d_draw_text(15, 5, 0.6f, 0.6f, C_WHITE, "HELLO WORLD!!");
 
 	// Bottom screen (We just show an image)
-	pp2d_draw_on(GFX_BOTTOM);
+	pp2d_draw_on(GFX_BOTTOM, GFX_LEFT);
 	pp2d_draw_texture_part(TEXTURE_SPRITESHEET_ID2, 0, 0, TOP_WIDTH, HEIGHT, BOTTOM_WIDTH, HEIGHT);
 	pp2d_end_draw();
 }

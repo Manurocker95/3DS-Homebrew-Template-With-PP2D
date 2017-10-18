@@ -47,11 +47,11 @@ void SplashScreen::Start()
 void SplashScreen::Draw()
 {
 	// Top Screen
-	pp2d_begin_draw(GFX_TOP);
+	pp2d_begin_draw(GFX_TOP, GFX_LEFT);
 	pp2d_draw_texture_part_blend(TEXTURE_SPRITESHEET_ID, 0, 0, 0, 0, TOP_WIDTH, HEIGHT, RGBA8(255, 255, 255, m_splashOpacity));
 
 	// Bottom Screen
-	pp2d_draw_on(GFX_BOTTOM);
+	pp2d_draw_on(GFX_BOTTOM, GFX_LEFT);
 	pp2d_draw_texture_part_blend(TEXTURE_SPRITESHEET_ID, 0, 0, 0, HEIGHT, BOTTOM_WIDTH, HEIGHT, RGBA8(255, 255, 255, m_splashOpacity));
 	pp2d_end_draw();
 }
