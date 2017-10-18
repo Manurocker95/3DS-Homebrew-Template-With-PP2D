@@ -1,8 +1,12 @@
 #3DS Stuff
+3DS-Homebrew-Template-With-PP2D/3DS-Homebrew-Template-With-PP2D/build
+3DS-Homebrew-Template-With-PP2D/3DS-Homebrew-Template-With-PP2D/resources/*.bat
+3DS-Homebrew-Template-With-PP2D/3DS-Homebrew-Template-With-PP2D/resources/*.exe
+3DS-Homebrew-Template-With-PP2D/3DS-Homebrew-Template-With-PP2D/Debug
 3DS-Homebrew-Template-With-PP2D/3DS-Homebrew-Template-With-PP2D/Binaries
-*.3dsx
-*.elf
-*.smdh
+3DS-Homebrew-Template-With-PP2D/3DS-Homebrew-Template-With-PP2D/*.3dsx
+3DS-Homebrew-Template-With-PP2D/3DS-Homebrew-Template-With-PP2D/*.elf
+3DS-Homebrew-Template-With-PP2D/3DS-Homebrew-Template-With-PP2D/*.smdh
 3DS-Homebrew-Template-With-PP2D/3DS-Homebrew-Template-With-PP2D/*.exe
 3DS-Homebrew-Template-With-PP2D/3DS-Homebrew-Template-With-PP2D/*.bat
 

@@ -25,7 +25,7 @@ Copyright (C) 2017 Manuel Rodríguez Matesanz
 #include "sound.h"
 #include "scene.h"
 #include "SceneManager.h"
-#include "pp2d/pp2d.h"
+#include "pp2d/pp2d/pp2d/pp2d.h"
 
 class SplashScreen : public Scene
 {
