@@ -1,3 +1,6 @@
 [submodule "3DS-Homebrew-Template-With-PP2D/3DS-Homebrew-Template-With-PP2D/source"]
 	path = 3DS-Homebrew-Template-With-PP2D/3DS-Homebrew-Template-With-PP2D/source
 	url = git://github.com/BernardoGiordano/pp2d.git
+[submodule "3DS-Homebrew-Template-With-PP2D/3DS-Homebrew-Template-With-PP2D/source/pp2d"]
+	path = 3DS-Homebrew-Template-With-PP2D/3DS-Homebrew-Template-With-PP2D/source/pp2d
+	url = git://github.com/BernardoGiordano/pp2d.git
