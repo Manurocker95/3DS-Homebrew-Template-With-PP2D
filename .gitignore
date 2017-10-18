@@ -1,10 +1,10 @@
 #3DS Stuff
-3DS-Homebrew-Template-With-PP2D/3DS-Homebrew-Template-With-PP2D
+3DS-Homebrew-Template-With-PP2D/3DS-Homebrew-Template-With-PP2D/Binaries
 *.3dsx
 *.elf
 *.smdh
-*.exe
-*.bat
+3DS-Homebrew-Template-With-PP2D/3DS-Homebrew-Template-With-PP2D/*.exe
+3DS-Homebrew-Template-With-PP2D/3DS-Homebrew-Template-With-PP2D/*.bat
 
 # Windows image file caches
 Thumbs.db
