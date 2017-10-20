@@ -12,3 +12,4 @@ pp2d is licensed under the MIT License.
 * standalone pp2d_free_texture (LiquidFenrir)
 * 3d support (Robz8)
 * load png from memory (ErmanSayin)
+* Part Scale, Blend and combos (Manurocker95)
